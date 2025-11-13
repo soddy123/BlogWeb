@@ -30,21 +30,25 @@ Thought Express is a blog website where users can log in, write, edit, and delet
    cd thought-express
 
 
-##Install dependencies
-npm install
+2. Install dependencies
+   ```bash
+   npm install
 
-##Start the development server
-npm start
+3.Start the development server
+   ```bash
+   npm start
+```
 
-Open http://localhost:3000
+4.Open http://localhost:3000
 
+```bash
 src/
  ├── components/     → Reusable UI parts
  ├── pages/          → Main pages (Home, Login, PostDetails, etc.)
  ├── services/       → Appwrite setup and API calls
  ├── App.jsx
  └── index.jsx
-
+```
  Usage
 
 Log in or sign up using Appwrite authentication
@@ -64,6 +68,7 @@ Add comments and likes
 Add search and filter options
 
 Add dark mode
+
 
 
 
